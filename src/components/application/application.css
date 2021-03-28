@@ -1,0 +1,96 @@
+
+.application  > .application-body > .app {
+    height: 100vh;
+    padding: 90px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #FFC39F;
+    border-radius: 0;
+}
+
+.application  > .application-body > .app > .frontend,
+.application  > .application-body > .app > .backend
+{
+    padding: 60px ;
+    box-shadow: 0 2px 30px tomato;
+    border-radius: 20px;
+}
+
+.application  > .application-body > .app > .frontend{
+    background-color: #F7955B;
+}
+
+.application  > .application-body > .app > .backend{
+    background-color: #434343;
+    color: #F7955B;
+}
+
+.application  > .application-body > .app > .frontend > p,
+.application  > .application-body > .app > .backend > p{
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.application  > .application-body > .app > .frontend > a > button,
+.application  > .application-body > .app > .backend > a > button{
+    min-width: 75px;
+    width: 50%;
+    border: none;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.application  > .application-body > .app > .frontend > a > button:hover{
+    background-color: #FFFFFF;
+    width: 75%;
+}
+
+.application  > .application-body > .app > .backend > a > button:hover{
+    background-color: #F7955B;
+    width: 75%;
+}
+
+
+
+@media only screen and (max-width: 1100px){
+   .application  > .application-body > .app {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+    }
+
+   .application  > .application-body > .app :hover{
+        transform: scale(0.98);
+    }
+
+    .application  > .application-body > .app > .backend,
+    .application  > .application-body > .app > .frontend{
+        width: 70%;
+        margin: 40px 0;
+    }
+
+    .application  > .application-body > .app > div{
+        width: 100%;
+    }
+
+    .application  > .application-body > .app > div > a > button{
+        width: 100%;
+    }
+
+    .application  > .application-body > .app > div > img{
+        width: 90%;
+    }
+} 
+
+@media only screen and (max-width: 460px){
+    .application  > .application-body > .app > div{
+        padding: 0 !important;
+        padding-bottom: 20px !important;
+    }
+
+}

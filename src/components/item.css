@@ -1,0 +1,55 @@
+.item{
+    min-width: 250px;
+    height: 100%;
+    padding: 30px 0;
+    background-color: #F7955B !important;
+    box-shadow: 0px 0px 40px black;
+    border-radius: 20px;
+}
+
+.item:hover{
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.item> img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.item> p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #455A64;
+}
+
+.item> a > button {
+    border: none;
+    width: 60px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.item> a > button:hover{
+    background-color: #455A64;
+    color: yellow;
+    width: 50%;
+}
+
+.item> a > button:focus {
+    outline: none;
+    background-color: #455A64;
+}
+
+@media only screen and (max-width: 500px){
+    .item{
+        min-width: 0;
+        width: 100%;
+    }
+
+    .item:hover{
+        transform: scale(0.98);
+    }
+}

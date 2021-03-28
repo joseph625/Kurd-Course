@@ -1,0 +1,27 @@
+.footer{
+    text-align: center;
+    width: 100%;
+}
+
+.bottom-web{
+    
+    background-color: #F7955B;
+    padding: 40px 0;
+    width: 100%;
+    text-align: center;
+   }
+   
+.bottom-web > .year{
+       font-size: 1rem;
+       color: gainsboro;
+       margin-top: 30px;
+   }
+
+.bottom-web > a{
+    margin:0 20px 0px 0;
+}
+
+.bottom-web > div > p{
+    font-size: 1.3rem;
+    color: whitesmoke;
+}

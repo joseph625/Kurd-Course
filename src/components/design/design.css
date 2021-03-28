@@ -1,0 +1,49 @@
+.design > .design-body{
+    background-color: #404040;
+}
+
+
+.design > .design-body > .grid > .youtube{
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 0 0 20px #FFFFFF;
+    padding-bottom: 30px;
+    border-radius: 45px;
+}
+
+.design > .design-body > .grid > .youtube > img{
+    width: 80%;
+}
+
+
+.design > .design-body > .grid > .youtube > h1{
+    margin: 20px 0;
+    font-style: oblique;
+    font-size: 3rem;
+    font-family: cursive;
+    font-weight: bold;
+    color: #AE6940;
+}
+
+
+.design > .design-body > .grid > .youtube > p{
+    color: #f1bb9b;
+}
+
+.design > .design-body > .grid > .youtube > iframe{
+    box-sizing: content-box;
+    margin-top: 20px;
+    width: 90%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 500px){
+    .design > .design-body > .grid > .youtube > h1{
+        font-size: 2rem;
+    }
+/* 
+    .design > .design-body > .grid > .youtube > img{
+        width: 50%;
+    } */
+}

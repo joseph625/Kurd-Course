@@ -1,0 +1,80 @@
+.about > .about-body > .header > .header-body{
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+}
+
+.about > .about-body > .header > .header-body > .rast > .bars{
+    background-color: transparent;
+}
+
+.about > .about-body > .header > .header-body > .chap > a > h1{
+    color: #FFC39F;
+}
+
+.about > .about-body > .header > .header-body > a > img{
+    width: 50px;
+
+}
+  
+.about{
+    height: 100vh;
+}
+
+.about-body{
+    width: 100%;
+    height: 100%;
+}
+
+.photo{
+    width: 100%;
+    height: 75%;
+}
+
+.photo > img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(30%);
+}
+
+.about-body > .detail{
+    background-image: url("https://www.transparenttextures.com/patterns/dark-dot.png");
+    width: 100%;
+    height: 25%;
+    font-family: 'Caveat', cursive;
+    color: #FFC39F;
+    font-size: 2rem;
+    background-color: #404040;
+    height: auto;
+    text-align: right;
+}
+
+.about-body > .detail > h1{
+    text-align: center;
+}
+
+.about-body > .detail > h1 > span{
+    font-size: .75rem;
+
+}
+
+.about-body > .detail > ul{
+    padding: 30px 60px;
+}
+.about-body > .detail > ul > li{
+    color: #c8abab;
+    font-size: 1.5rem;
+}
+
+
+.about-body > .footer > .bottom-web{
+    background-color: #FFC39F;
+}
+
+.about-body > .footer > .bottom-web > p{
+    color: #404040;
+}
+.about-body > .footer > .bottom-web  > p{
+    color: #404040;
+}
+

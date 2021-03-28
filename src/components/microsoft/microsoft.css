@@ -1,0 +1,7 @@
+.microsoft{
+    background-color: #404040;
+}
+
+.microsoft > .microsoft-body{
+    padding-bottom: 50px;
+}

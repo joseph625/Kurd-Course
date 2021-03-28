@@ -1,0 +1,29 @@
+.detail-body{
+    background-color: #F1BB9B;
+}
+
+.detail-body > .video-body > .right> h1{
+    color: #3d2a1e;
+}
+
+.detail-body > .video-body > .left> img{
+    border-radius: 0;
+}
+
+.detail-body > .grid > .youtube{
+    box-shadow: 0 0 20px #3d2a1e;
+}
+
+.detail-body > .book{
+    background-color: #404040;
+}
+
+.detail-body > .book > .body > .left > h1{
+    color: #F1BB9B;
+
+}
+
+.detail-body > .book > .body > .right > img{
+    color: #F1BB9B;
+    border-radius: 0;
+}

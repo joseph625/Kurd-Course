@@ -1,0 +1,72 @@
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.grid > .youtube{
+    margin-top: 60px;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    box-shadow: 0 0 20px #FFFFFF;
+    padding-bottom: 30px;
+    border-radius: 45px;
+    
+}
+
+.grid > .youtube > h1,
+.grid > .youtube > .framework > div > h1{
+    margin: 20px 0;
+    font-style: oblique;
+    font-size: 3rem;
+    font-family: cursive;
+    font-weight: bold;
+    color: #AE6940;
+}
+.grid > .youtube > .framework > div > h1{
+    font-size: 2rem;
+}
+
+.grid > .youtube > p{
+    color: #f1bb9b;
+}
+
+.grid > .youtube > iframe,
+.grid > .youtube> .framework > div > iframe{
+    box-sizing: content-box;
+    margin-top: 20px;
+    width: 90%;
+    min-height: 600px;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 1400px){
+    .grid > .youtube > iframe,
+    .grid > .youtube> .framework > div > iframe{
+    width: 95%;
+    height: 100%;
+}
+
+}
+
+
+@media only screen and (max-width: 750px){
+    .grid > .youtube{
+        width: 95%;
+        margin: 0 2.5%;
+
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .grid > .youtube > h1{
+        font-size: 2rem;
+    }
+
+    .grid > .youtube > img{
+        width: 50%;
+        height: 50%;
+    }
+}

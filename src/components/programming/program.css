@@ -1,0 +1,76 @@
+.program{
+    height: auto;
+    width: auto;
+    background-color: #434343;
+    text-align: center;
+}
+
+.program > .program-head{
+    padding-top: 50px;
+}
+
+.program > .program-head > h1{
+    font-size: 3rem;
+    color: #F98;
+}
+
+.program > .program-head > h2{
+    color: #E2BCAD;
+    font-size: 2rem;
+}
+
+.program >.program-head> iframe{
+    margin-top: 50px;
+    width: 50%;
+    height: 401px;
+    border-radius: 30px;
+    border: none;
+}
+
+.program  > .program-body {
+    border-radius: 20px;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-template-rows: repeat(auto-fill , 300px);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    margin: 60px 0;
+}
+
+.program  > .program-body :hover{
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.program > .program-body > a > img{
+    width: 200px;
+}
+
+.program > .detail-body > .grid > .grid > .youtube{
+    box-shadow: 0px 2px 20px #434343;
+}
+
+@media only screen and (max-width: 600px){
+    .program  > .program-body {
+        width: 100%;
+       height: auto;
+       display: flex;
+       flex-direction: column;
+    }
+    
+    
+    .program  > .program-body :hover{
+        transform: scale(0.98);
+    }
+    
+}
+
+@media only screen and (max-width: 800px){
+    
+    .program > iframe{
+        height: 300px;
+        width: 80%;
+    }
+}
